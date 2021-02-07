@@ -1,5 +1,5 @@
 " if hidden is not set, TextEdit might fail.
-let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-vimlsp', 'coc-clangd', 'coc-vimtex', 'coc-snippets']
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-vimlsp', 'coc-clangd', 'coc-snippets', 'coc-texlab']
 set hidden
 
 " Some servers have issues with backup files, see #649
