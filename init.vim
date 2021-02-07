@@ -1,6 +1,5 @@
 runtime plugins.vim
 runtime functions.vim
-runtime snippets.vim
 runtime coc.vim
 "Config Section
 if (has("termguicolors"))
