@@ -3,5 +3,6 @@ call plug#begin("~/.vim/plugged")
   Plug 'dracula/vim'
   Plug 'ferrine/md-img-paste.vim'
   Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
+  Plug 'tpope/vim-fugitive'
 call plug#end()
 
