@@ -31,3 +31,8 @@ let g:netrw_list_hide=netrw_gitignore#Hide()
 let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+augroup ProjectDrawer
+    autocmd!
+    autocmd VimEnter * if argc() == 0 | Explore! | endif
+augroup END
+
