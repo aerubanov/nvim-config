@@ -1,5 +1,7 @@
 runtime plugins.vim
+
 runtime functions.vim
+runtime statusline.vim
 runtime coc.vim
 "Config Section
 if (has("termguicolors"))
@@ -32,3 +34,6 @@ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 autocmd TextChanged,TextChangedI <buffer> silent write
 let g:python_host_prog = "/usr/bin/python3"
 let g:python3_host_prog = "/usr/bin/python3"
+let g:netrw_liststyle = 3
+let g:netrw_keepdir = 0
+set statusline=%F
