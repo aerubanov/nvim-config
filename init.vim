@@ -1,5 +1,5 @@
+let mapleader=","                   " <leader> key
 runtime plugins.vim
-
 runtime functions.vim
 runtime statusline.vim
 runtime coc.vim
@@ -28,7 +28,6 @@ set termguicolors
 filetype on
 filetype plugin on
 filetype indent on " file type based indentation
-let mapleader=","                   " <leader> key
 autocmd FileType markdown nmap <silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 autocmd TextChanged,TextChangedI <buffer> silent write
