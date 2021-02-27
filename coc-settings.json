@@ -1,7 +1,7 @@
 {
 "languageserver": {
   "python": {
-    "command": "python",
+    "command": "/usr/bin/python",
     "args": [
       "-mpyls",
       "-vv",
@@ -50,7 +50,7 @@
             "enabled": true
           },
           "pydocstyle": {
-            "enabled": false,
+            "enabled": true,
             "match": "(?!test_).*\\.py",
             "matchDir": "[^\\.].*"
           },
