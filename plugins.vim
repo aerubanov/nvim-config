@@ -5,6 +5,6 @@ call plug#begin("~/.vim/plugged")
   Plug 'ferrine/md-img-paste.vim'
   Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
   Plug 'tpope/vim-fugitive'
-  Plug 'alfredodeza/pytest.vim'
+  Plug 'vim-test/vim-test'
 call plug#end()
 
