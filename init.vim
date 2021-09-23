@@ -30,9 +30,9 @@ filetype plugin on
 filetype indent on " file type based indentation
 autocmd FileType markdown nmap <silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
-autocmd TextChanged,TextChangedI <buffer> silent write
 let g:python_host_prog = "/usr/bin/python3"
 let g:python3_host_prog = "/usr/bin/python3"
 let g:netrw_liststyle = 3
 let g:netrw_keepdir = 0
 set statusline=%F
+set autowriteall
