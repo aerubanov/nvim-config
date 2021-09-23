@@ -6,5 +6,6 @@ call plug#begin("~/.vim/plugged")
   Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
   Plug 'tpope/vim-fugitive'
   Plug 'vim-test/vim-test'
+  Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
