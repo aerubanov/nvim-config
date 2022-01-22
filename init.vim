@@ -28,6 +28,7 @@ let g:python3_host_prog = "/usr/bin/python3"
 let g:netrw_liststyle = 3
 let g:netrw_keepdir = 0
 set statusline=%F
+xnoremap p pgvy
 
 " These "Pytest Support" work well when Caps Lock is mapped to Ctrl
 nmap <silent> <leader>tn :TestNearest<CR>
@@ -40,4 +41,3 @@ nmap <silent> <leader>tl :TestLast<CR>
 " Runs the last test.
 nmap <silent> <leader>tg :TestVisit<CR>
 " Visits the test file from which you last run your tests (useful when you're trying to make a test pass, and you dive deep into application code and close your test buffer to make more space, and once you've made it pass you want to go back to the test file to write more tests).
-let g:test#preserve_screen = 1
